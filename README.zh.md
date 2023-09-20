@@ -1,13 +1,9 @@
 # VUE BAIDU MAP
 
 <p align="center">
-  <img src="https://github.com/BigPlayBoy/vue-baidu-mapgl/favicon.png" width="200px">
+  <img src="https://dafrok.github.io/vue-baidu-map/favicon.png" width="200px">
 </p>
-<p align="center">Baidu Map components for Vue 2.x</p>
-## Special Instruction
-
-The current package is copied from the Vue-Baidu-Map of Dafrok. Since the original author has not maintained the Vue-Baidu-Map package, I copied it for personal use and changed the BAIDU Map API to 3.0
-
+<p align="center">基于 VUE 2.x 的百度地图组件</p>
 
 [![npm](https://img.shields.io/npm/v/vue-baidu-map.svg)]()
 [![Travis](https://img.shields.io/travis/Dafrok/vue-baidu-map.svg)]()
@@ -15,37 +11,40 @@ The current package is copied from the Vue-Baidu-Map of Dafrok. Since the origin
 [![npm](https://img.shields.io/npm/dm/vue-baidu-map.svg)]()
 [![license](https://img.shields.io/github/license/dafrok/vue-baidu-map.svg)]()
 
-## Languages
+## Special Instruction
+
+当前包是从Dafrok的vue-baidu-map拷贝过来的，由于原作者一直未维护vue-baidu-map这个包，本人拷贝过来作为个人使用，并将百度地图API更改为3.0
+
+## 语言
 
 - [中文](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/master/README.zh.md)
 - [English](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/master/README.md)
 
-## Documentation
+## 文档
 
 [https://github.com/BigPlayBoy/vue-baidu-mapgl](https://github.com/BigPlayBoy/vue-baidu-mapgl)
 
-## Get Start
+## 开始
 
-### Installation
+### 安装
 
 ```bash
 npm i --save vue-baidu-map
 ```
 
-### Initialization
+### 初始化
 
 ```javascript
 import Vue from 'vue'
 import BaiduMap from 'vue-baidu-map'
 
 Vue.use(BaiduMap, {
-  /* Visit http://lbsyun.baidu.com/apiconsole/key for details about app key. */
+  // ak 是在百度地图开发者平台申请的密钥 详见 http://lbsyun.baidu.com/apiconsole/key */
   ak: 'YOUR_APP_KEY'
 })
 ```
 
-### Usage
-
+### 使用
 ```vue
 <template>
   <baidu-map class="map">
@@ -53,21 +52,19 @@ Vue.use(BaiduMap, {
 </template>
 
 <style>
-/* The container of BaiduMap must be set width & height. */
+/* 地图容器必须设置宽和高属性 */
 .map {
-  width: 100%;
+  width: 400px;
   height: 300px;
 }
 </style>
 ```
 
-## Contributing
+## 贡献
 
-[Contributing Guide](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/master/CONTRIBUTING.md)
+[贡献指南](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/master/CONTRIBUTING.md)
 
 
-## License
+## 协议
 
-[MIT License](https://opensource.org/licenses/MIT)
-
-Copyright (c) 2016-present, Dafrok <o.o@mug.dog>
+[MIT 许可证](https://opensource.org/licenses/MIT)
