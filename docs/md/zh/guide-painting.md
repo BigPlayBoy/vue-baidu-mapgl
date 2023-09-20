@@ -126,6 +126,7 @@ export default {
       }
       // path[path.length - 1] = e.point
       this.$set(path, path.length - 1, e.point)
+
       // paths[0][0] = e.point
     },
     newPolyline (e) {
@@ -141,6 +142,8 @@ export default {
       if (path.length) {
         paths.push([])
       }
+      console.log("polyline",path)
+
     },
     paintPolyline (e) {
       if (!this.polyline.editing) {

@@ -1,6 +1,6 @@
 {
-  "name": "vue-baidu-mapgl",
-  "version": "0.1.0",
+  "name": "@anshichifan/vue-baidu-mapgl",
+  "version": "0.1.3",
   "description": "Baidu Map Component for Vue 2.0",
   "main": "index.js",
   "directories": {
@@ -18,7 +18,7 @@
   "types": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dafrok/vue-baidu-map.git"
+    "url": "git+https://github.com/BigPlayBoy/vue-baidu-mapgl.git"
   },
   "keywords": [
     "vue",

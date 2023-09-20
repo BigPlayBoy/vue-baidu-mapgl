@@ -1,24 +1,24 @@
 # VUE BAIDU MAP
 
 <p align="center">
-  <img src="https://github.com/BigPlayBoy/vue-baidu-mapgl/favicon.png" width="200px">
+  <img src="https://dafrok.github.io/vue-baidu-map/favicon.png" width="200px">
 </p>
 <p align="center">Baidu Map components for Vue 2.x</p>
 ## Special Instruction
 
-The current package is copied from the Vue-Baidu-Map of Dafrok. Since the original author has not maintained the Vue-Baidu-Map package, I copied it for personal use and changed the BAIDU Map API to 3.0
+The current package is copied from the Vue-Baidu-Map of [Dafrok](https://github.com/Dafrok/vue-baidu-map). Since the original author has not maintained the Vue-Baidu-Map package, I copied it for personal use and changed the BAIDU Map API to 3.0
 
 
 [![npm](https://img.shields.io/npm/v/vue-baidu-map.svg)]()
 [![Travis](https://img.shields.io/travis/Dafrok/vue-baidu-map.svg)]()
-[![Package Quality](http://npm.packagequality.com/shield/vue-baidu-map.svg)](http://packagequality.com/#?package=vue-baidu-map)
+[![Package Quality](http://npm.packagequality.com/shield/vue-baidu-map.svg)](http://packagequality.com/#?package=vue-baidu-mapgl)
 [![npm](https://img.shields.io/npm/dm/vue-baidu-map.svg)]()
 [![license](https://img.shields.io/github/license/dafrok/vue-baidu-map.svg)]()
 
 ## Languages
 
-- [中文](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/master/README.zh.md)
-- [English](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/master/README.md)
+- [中文](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/main/README.zh.md)
+- [English](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/main/README.md)
 
 ## Documentation
 
@@ -70,4 +70,4 @@ Vue.use(BaiduMap, {
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2016-present, Dafrok <o.o@mug.dog>
+Copyright (c) 2023-present

@@ -5,20 +5,20 @@
 </p>
 <p align="center">基于 VUE 2.x 的百度地图组件</p>
 
-[![npm](https://img.shields.io/npm/v/vue-baidu-map.svg)]()
-[![Travis](https://img.shields.io/travis/Dafrok/vue-baidu-map.svg)]()
-[![Package Quality](http://npm.packagequality.com/shield/vue-baidu-map.svg)](http://packagequality.com/#?package=vue-baidu-map)
-[![npm](https://img.shields.io/npm/dm/vue-baidu-map.svg)]()
-[![license](https://img.shields.io/github/license/dafrok/vue-baidu-map.svg)]()
+[![npm](https://img.shields.io/npm/v/@anshichifan/vue-baidu-mapgl.svg)]()
+[![Travis](https://img.shields.io/travis/Dafrok/@anshichifan/vue-baidu-mapgl.svg)]()
+[![Package Quality](http://npm.packagequality.com/shield/@anshichifan/vue-baidu-mapgl.svg)](http://packagequality.com/#?package=@anshichifan/vue-baidu-mapgl)
+[![npm](https://img.shields.io/npm/dm/@anshichifan/vue-baidu-mapgl.svg)]()
+[![license](https://img.shields.io/github/license/dafrok/@anshichifan/vue-baidu-mapgl.svg)]()
 
 ## Special Instruction
 
-当前包是从Dafrok的vue-baidu-map拷贝过来的，由于原作者一直未维护vue-baidu-map这个包，本人拷贝过来作为个人使用，并将百度地图API更改为3.0
+当前包是从[Dafrok](https://github.com/Dafrok/vue-baidu-map)的vue-baidu-map拷贝过来的，由于原作者一直未维护vue-baidu-map这个包，本人拷贝过来作为个人使用，并将百度地图API更改为3.0
 
 ## 语言
 
-- [中文](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/master/README.zh.md)
-- [English](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/master/README.md)
+- [中文](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/main/README.zh.md)
+- [English](https://github.com/BigPlayBoy/vue-baidu-mapgl/blob/main/README.md)
 
 ## 文档
 
